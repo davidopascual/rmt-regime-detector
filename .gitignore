@@ -1,0 +1,18 @@
+*.parquet
+*.pkl
+data/cache/
+*.pyc
+__pycache__/
+.venv/
+.env
+
+# Local editor/tool config
+.claude/
+
+# Reference PDFs and derived artifacts
+*.pdf
+extracted_papers.txt
+
+# Internal development scripts
+run_phase*.py
+run_extensions.py

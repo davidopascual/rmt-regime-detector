@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+pyarrow>=16.0        # Parquet I/O for returns panel cache
+
+# Machine learning (ROC analysis in validation.py)
+scikit-learn>=1.5
+
+# Plotting (figures only — no seaborn, no plotly)
+matplotlib>=3.9
+
+# Data acquisition (soft dependency — only needed for initial download)
+yfinance>=0.2.40
+
+# Testing
+pytest>=9.0
+
+# PDF reading (used only during Phase 1 literature review)
+PyMuPDF>=1.24
